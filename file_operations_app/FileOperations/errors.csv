@@ -1,0 +1,16 @@
+C:/Users/pinkz/AWS\code.zip,No CSVs ending with mapinfo and t18 found
+folder1/customer.csv,CSV format is not UTF-8 encoded
+folder1/structure.csv,{row: 1 column: "Sl No"}: "nan" this field cannot be null
+folder1/structure.csv,{row: 1 column: "Date"}: "nan" does not match the date format string "%d/%m/%Y"
+folder2/structure.csv,{row: 1 column: "Sl No"}: "nan" this field cannot be null
+folder2/structure.csv,{row: 1 column: "Date"}: "nan" does not match the date format string "%d/%m/%Y"
+folder3/customer.csv,Invalid number of columns. The schema specifies 5 but the data frame has 4
+folder3/structure.csv,{row: 1 column: "Sl No"}: "nan" this field cannot be null
+folder3/structure.csv,{row: 1 column: "Date"}: "nan" does not match the date format string "%d/%m/%Y"
+folder4/customer.csv,The column Customer ID exists in the schema but not in the data frame
+folder4/structure.csv,{row: 1 column: "Sl No"}: "nan" this field cannot be null
+folder4/structure.csv,{row: 1 column: "Date"}: "nan" does not match the date format string "%d/%m/%Y"
+New folder/customer.csv,CSV format is not UTF-8 encoded
+New folder/structure.csv,{row: 1 column: "Sl No"}: "nan" this field cannot be null
+New folder/structure.csv,{row: 1 column: "Date"}: "nan" does not match the date format string "%d/%m/%Y"
+C:/Users/pinkz/AWS\Resources.zip,No CSVs ending with mapinfo and t18 found

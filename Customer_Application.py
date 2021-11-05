@@ -254,17 +254,15 @@ class SuccessPage(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
 
-        label = tk.Label(self, textvariable=controller.var, font=LARGE_FONT)
+      label = tk.Label(self, text= "Folder Validated Successfully", font=LARGE_FONT)
 
         label.grid(row=0, column=1, columnspan=3, padx=100, pady=20)
-        print(label.winfo_parent)
         button1 = tk.Button(
             self,
             text=" Home",
             command=lambda: controller.show_frame(MainPage),
         )
         button1.grid(row=1, column=1, padx=200)
-
 
 if __name__ == "__main__":
     app = FetchCustomer()

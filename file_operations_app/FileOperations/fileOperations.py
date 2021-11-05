@@ -62,7 +62,7 @@ class MainPage(tk.Frame):
                     print(controller.errors)
             elif len(csv) == 0:
                 controller.errors[filename] = [
-                    "No CSVs ending with mapinfo and t18 found"
+                    "No CSVs ending with structure and customer found"
                 ]
             else:
                 controller.errors[filename] = ["More than 2 CSV found"]
